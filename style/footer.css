@@ -1,0 +1,75 @@
+footer {
+    background-color: rgb(130, 0, 0);
+    padding: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+footer div div {
+    display: block;
+}
+.center-info   {
+    padding-left: 10%;
+    text-align: center;
+}
+
+#vk::before,
+#inst::before,
+#tg::before {
+    width: 1.2em;
+    height: 1.2em; padding-right: 20px;
+background-repeat: no-repeat;
+display: inline-block;
+}
+#vk::before {
+    content: " ";
+    background-image: url(../media/vk.svg);
+  
+}
+#inst::before { 
+    content: " ";
+    background-image: url(../media/insta.svg);
+}
+#tg::before {
+    content: " ";
+    background-image: url(../media/tg.svg);
+}
+.contact-info p a {
+    text-decoration: none;
+    color: white;
+}
+#us {
+    margin-bottom: 10px;
+}
+@media (min-width: 769px)  and  (max-width: 1280px) {
+    footer {
+        margin-top: 5%;
+    }
+    .pagination {
+        margin-top: 13rem;
+    }
+    
+}
+@media (max-width: 768px) {
+    footer div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .center-info {
+        text-align: left;
+        padding-left: 0;
+    }
+    footer div div {
+        margin-bottom: 8%;
+    }
+    footer {
+        margin-top: 10rem;
+    }
+}

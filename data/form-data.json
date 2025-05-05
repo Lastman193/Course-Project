@@ -1,0 +1,25 @@
+[
+  {
+    "id": "78686221",
+    "type": "vacancy",
+    "name": "Жигимонт Егор Олегович",
+    "phone": "80447518265",
+    "email": "lastmanonearth193@gmail.com"
+  },
+  {
+    "id": "70243431",
+    "type": "order",
+    "name": "Жигимонт Егор Олегович",
+    "phone": "80447518265",
+    "email": "lastmanonearth193@gmail.com",
+    "address": ""
+  },
+  {
+    "id": "31376924",
+    "type": "order",
+    "name": "Егор",
+    "phone": "80447518265",
+    "email": "lastmanonearth193@gmail.com",
+    "address": "Каменногорская, 6-177"
+  }
+]

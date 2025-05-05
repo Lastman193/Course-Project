@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин бытовой техники "Цифровик"</title>
+    <link rel="stylesheet" href="style/main-style.css">
+    <link rel="stylesheet" href="style/popup-menu.css">
+    <link rel="stylesheet" href="style/top-bar.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/footer.css">
+    
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="mobile-logo">
+                <img src="media/menu.svg">
+            </div>
+            <div class="logo">
+                <a href="main.html">
+                    <img src="media/logo.svg" class="logo-image">
+                    <p class="logo-text">Цифровик</p>
+                </a>
+            </div>
+            <div class="contact-info-link">
+                <p class="addresses" id = "adr"><button>Наши адреса</button></p>
+                <p class="addresses" id = "call"><button><a href="#footer">Cвязаться с нами</a></button></p>
+            </div>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="promotions.html">Акции</a></li>
+                <li><a href="jobs.html">Вакансии</a></li>
+                <li><a href="catalog.html" class="nav-link">Каталог</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-wrapper">
+                <div class="mobile-menu">
+                    <button class="close-menu-button">×</button>
+                    <nav class="mobile-menu-main">
+                        <ul>
+                            <li><a href="main.html">Главная</a></li>
+                            <li><a href="promotions.html">Акции</a></li>
+                            <li><a href="jobs.html">Вакансии</a></li>
+                            <li><a href="catalog.html">Каталог</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h2>ГЛАВНАЯ</h2>
+                
+            </div>
+            <div class="banner-image">
+                <button class="banner-nav prev">❮</button>
+                <img src="media/Pizza.png" alt="Акции в магазине">
+                <button class="banner-nav next">❯</button>
+            </div>
+            <div class="slide-indicators"></div>
+        </section>
+
+        <section class="promotions">
+            <h2>АКЦИИ</h2>
+            <div class="promotions-grid">
+                <div class="promotion-card">
+                    <img src="media/honor.png">
+                    <div class="promotion-card-content">
+                        <h3>Скидки с HONOR!</h3>
+                    </div>
+                </div>
+
+                <div class="promotion-card">
+                    <img src="media/plenki.png" >
+                    <div class="promotion-card-content">
+                        <h3>Две пленки по цене одной</h3>
+                    </div>
+                </div>
+
+                <div class="promotion-card">
+                    <img src="media/voka.png" >
+                    <div class="promotion-card-content">
+                        <h3>Открой воки с voka</h3>
+                    </div>
+                </div>
+
+                <div class="promotion-card">
+                    <img src="media/marshall.png" >
+                    <div class="promotion-card-content">
+                        <h3>Дешево и сердито!</h3>
+                    </div>
+                </div>
+
+                <div class="promotion-card">
+                    <img src="media/tefal.png">
+                    <div class="promotion-card-content">
+                        <h3>Готовь с цифровиком</h3>
+                    </div>
+                </div>
+
+                <div class="promotion-card">
+                    <img src="media/techno.png">
+                    <div class="promotion-card-content">
+                        <h3>TECHNOлогическое чудо</h3>
+                    </div>
+                </div>
+            </div>
+            <a href="promotions.html" class="read-more-link">Читать больше →</a>
+        </section>
+
+        <section class="jobs-section">
+            <h2>ВАКАНСИИ</h2>
+            <div class="jobs-container">
+                <div class="jobs-image">
+                    <img src="media/Jobs.jpg" alt="Работа в нашей компании">
+                </div>
+                <div class="jobs-info">
+                    <h3>В нашей Компании применяется гибкая система оплаты труда.
+                        Её результат зависит от персональных достижений сотрудников.
+                        Из чего она состоит?
+                    </h3>
+                    <p><span>Мы предлагаем:</span></p>
+                    <p>
+                        <span>Современность.</span> Каждый магазин сети – это комфортный торговый зал, современные технологии и программные продукты, созданные для удобства обслуживания покупателей, а также комната отдыха и приёма пищи для сотрудников магазина.
+                    </p>
+                    <p>
+                        <span>Работу в офисе.</span> Наш офис находится в самом центре города, в шаговой доступности от станций метро "Площадь Победы" и "Октябрьская", рядом с Минским цирком. Для удобства сотрудников в офисе Компании размещены кафе, тренажерный зал и несколько переговорных залов для приема Партнеров.
+                    </p>
+                    <p>
+                     <span>Мотивацию.</span> Мы не боимся ставить амбициозные цели для сотрудников Компании, и сотрудники готовы к их достижению.
+Результат – интересные программы поощрения и призы для лучших из лучших.
+                    </p>
+                    <a href="jobs.html" class="jobs-link">Узнать подробнее</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer id = "footer">
+        <div>
+        <div class="center-info">
+            <p class="title">Обратная связь</p>
+            <p class="phone">+375 17 759 43 49</p>
+            <p class="hours">10:00-21:30</p>
+        </div>
+        <div class="company-info">
+            <p>ОАО "Цифровик" 2025</p>
+            <p>Главный офис: г.Минск, Свердлова 45А</p>
+        </div>
+        <div class ="contact-info">
+            <p id ="us">Наши соцсети</p>
+            <p id="vk"><a href = "#">Вконтакте</a></p>
+            <p id="inst"><a href = "#">Instagram</a></p>
+            <p id="tg"><a href = "#">Telegram</a></p>
+        </div>
+    </div>
+    </footer>
+    <div id="addresses-popup" class="addresses-popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2>Наши адреса в Минске</h2>
+            <ul>
+                <li>Асаналиева, 17</li>
+                <li>Ландера, 52</li>
+                <li>Сухарево, 11</li>
+                </ul>
+        </div>
+    </div>
+
+    <script src="js/banner-slider.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/addresses-popup.js"></script>
+</body>
+</html>

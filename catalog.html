@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/catalog-items.css">
+    <link rel="stylesheet" href="style/popup-menu.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/left-menu.css">
+    <link rel="stylesheet" href="style/top-bar.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/order-form.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="mobile-logo">
+                <img src="media/menu.svg">
+            </div>
+            
+            <div class="logo">
+                <a href="main.html">
+                    <img src="media/logo.svg" class="logo-image">
+                    <p class="logo-text">Цифровик</p>
+                </a>
+            </div>
+            <div class="contact-info-link">
+                <p class="addresses" id = "adr"><button>Наши адреса</button></p>
+                <p class="addresses" id = "call"><button><a href="#footer">Cвязаться с нами</a></button></p>
+            </div>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="promotions.html">Акции</a></li>
+                <li><a href="jobs.html">Вакансии</a></li>
+                <li class="dropdown">
+                    <a href="#">Каталог</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-wrapper">
+                <div class="mobile-menu">
+                    <button class="close-menu-button">×</button>
+                    <nav class="mobile-menu-main">
+                        <ul> 
+                            <li><a href="main.html">Главная</a></li>
+                            <li><a href="promotions.html">Акции</a></li>
+                            <li><a href="jobs.html">Вакансии</a></li>
+                            <li><a href="#" class="catalog-link">Каталог</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="catalog-container"> 
+            <div class="left-menu"> 
+                <h3>Категории</h3>
+                <ul>
+                    <li><a href="#">Телевизоры</a></li>
+                    <li><a href="#">Холодильники</a></li>
+                    <li><a href="#">Стиральные машины</a></li>
+                    <li><a href="#">Пылесосы</a></li>
+                    <li><a href="#">Микроволновки</a></li>
+                    <li><a href="#">Посудомойки</a></li>
+                    <li><a href="#">Духовки</a></li>
+                    <li><a href="#">Кухонные плиты</a></li>
+                    <li><a href="#">Кухонная утварь</a></li>
+                    <li><a href="#">Гаджеты</a></li>
+                </ul>
+                <h3>Сортировка</h3>
+                <div class="catalog-controls">
+                    <label for="sort-by">Сортировать по:</label>
+                    <select id="sort-by">
+                      <option value="default">По умолчанию</option>
+                      <option value="price-asc">По возрастанию цены</option>
+                      <option value="price-desc">По убыванию цены</option>
+                    </select>
+                  </div>
+            </div>
+
+            <div class="catalog-page">
+                <h1>КАТАЛОГ</h1>
+                <div class="catalog-grid">
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer id = "footer">
+        <div>
+        <div class="center-info">
+            <p class="title">Обратная связь</p>
+            <p class="phone">+375 17 759 43 49</p>
+            <p class="hours">10:00-21:30</p>
+        </div>
+        <div class="company-info">
+            <p>ОАО "Цифровик" 2025</p>
+            <p>Главный офис: г.Минск, Свердлова 45А</p>
+        </div>
+        <div class ="contact-info">
+            <p id ="us">Наши соцсети</p>
+            <p id="vk"><a href = "#">Вконтакте</a></p>
+            <p id="inst"><a href = "#">Instagram</a></p>
+            <p id="tg"><a href = "#">Telegram</a></p>
+        </div>
+    </div>
+    </footer> 
+    <div id="addresses-popup" class="addresses-popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2>Наши адреса в Минске</h2>
+            <ul>
+                <li>Асаналиева, 17</li>
+                <li>Ландера, 52</li>
+                <li>Сухарево, 11</li>
+            </ul>
+        </div>
+    </div>
+    <div id="order-form-popup" class="order-form-popup">
+        <div class="order-form-content">
+            <span class="close-button order-form-close">&times;</span>
+            <h2>Оформление заказа</h2>
+            <form id="order-form">
+                <label for="name">ФИО:</label><br>
+                <input type="hidden" name="type" value="order">
+                <input type="text" id="name" name="name" required><br>
+                <label for="phone">Телефон:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="address">Адрес доставки:</label><br>
+                <textarea id="address" name="address" required></textarea><br><br>
+                <button type="submit">Оформить заказ</button>
+            </form>
+            <div id="order-success" class="order-success" style="display:none;">
+                <h3>Заказ успешно оформлен!</h3>
+                <p>Номер вашего заказа: <span id="order-number"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/order-form.js"></script>
+    <script src="js/addresses-popup.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/catalog.js"></script>
+    
+</body>
+</html>

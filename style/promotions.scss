@@ -1,0 +1,247 @@
+$primary-color: rgb(123, 0, 0);
+$font-family-base: Arial, sans-serif;
+$line-height-base: 1.6;
+$background-color-base: white;
+$font-family-zagolovok: "Russo One";
+
+body {
+  font-family: $font-family-base;
+  line-height: $line-height-base;
+  background-color: $background-color-base;
+  min-height: 100vh;
+}
+
+main {
+  padding: 2rem;
+}
+
+.promotions {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
+
+.promotions-row {
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+}
+
+.promotion-item {
+  width: 100%;
+
+  h2 {
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: font-size 0.2s ease-in-out;
+  }
+
+  img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 1.2rem;
+  }
+}
+
+.promotion-date-badge {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#zagolovok {
+  font-size: 3.6rem;
+  font-family: $font-family-zagolovok;
+  color: $primary-color;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+  .promotions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .promotion-item {
+    padding: 1rem;
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  .promotion-date-badge {
+    font-size: 1rem;
+  }
+
+  .promotion-item-content p {
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background: $background-color-base;
+  }
+
+  .promotions-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 4%;
+  }
+
+  .jobs-image {
+    display: none;
+  }
+
+  .promotion-item {
+    img {
+      height: auto;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 15px;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      padding: 1.5rem;
+    }
+  }
+
+  .promotion-date-badge {
+    font-size: 1.1rem;
+  }
+
+  .promotion-item-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .promotions-row {
+    flex-direction: column;
+  }
+
+  .promotion-item {
+    width: 70%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    h2 {
+      font-size: 3rem;
+      padding: 2rem;
+    }
+  }
+
+  .promotions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dropdown-content ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .promotions-row {
+    flex-direction: column;
+  }
+
+  body {
+    background-color: $background-color-base;
+  }
+
+  .promotions {
+    padding: 0;
+  }
+
+  .promotions-grid {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 4%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
+  .promotion-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  main {
+    background-color: $background-color-base;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background: $background-color-base;
+  }
+
+  .promotions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jobs-image {
+    display: none;
+  }
+
+  .promotion-item img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .promotion-item h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .promotion-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}

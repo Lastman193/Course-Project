@@ -1,0 +1,92 @@
+
+
+.catalog-container {
+    display: flex;
+    padding: 20px;
+}
+
+.left-menu {
+    margin-top: 6%;
+    width: 15%; 
+    margin-right: 20px; 
+    padding: 15px;
+    
+    border-radius: 8px;
+    background: transparent;
+    height: 40%;
+}
+
+.left-menu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.left-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul li {
+    margin-bottom: 8px;
+}
+
+.left-menu ul li a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 5px 0;
+}
+
+.left-menu ul li a:hover {
+    color: #007bff;
+}
+
+.catalog-page {
+    flex-grow: 1; /* Занимает оставшееся пространство */
+    padding: 20px;
+    margin: 0; /* Убираем отступы, которые могли быть ранее */
+}
+
+
+@media (max-width: 768px) {
+    .catalog-container {
+        flex-direction: column; /* Размещаем меню и каталог вертикально */
+        padding: 10px;
+    }
+
+    .left-menu {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        padding: 0;
+    }   
+    
+
+    .left-menu h3 {
+        display: none; /* Скрываем заголовок на мобильных */
+    }
+
+    .left-menu ul {
+        display: flex;
+        overflow-x: auto; /* Горизонтальная прокрутка для категорий */
+        white-space: nowrap;
+    }
+
+    .left-menu ul li {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .left-menu ul li:last-child {
+        margin-right: 0;
+    }
+
+    .catalog-page {
+        padding: 10px;
+    }
+}

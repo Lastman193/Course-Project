@@ -1,0 +1,210 @@
+/* Ваши существующие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    min-height: 100vh;
+}
+
+main {
+    padding: 2rem;
+}
+
+.jobs-section {
+    padding: 2rem;
+    text-align: left; 
+    background-color: transparent;
+}
+
+.jobs-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    color: rgb(123, 0, 0);
+    text-align: left;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+
+.top-left-text {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 15px;
+}
+
+.job-image  {
+    display: flex;
+    justify-content: center;
+}
+
+.job-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+}
+.bottom-left-grid {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+    padding: 15px;
+}
+
+.job-card {
+    background-color: #ffffff;
+    padding: 1.5rem; 
+    border: 5px solid rgb(123, 0, 0); 
+    text-align: left;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+    font-family: 'Calibri';
+    font-size: 1.1rem; 
+    color: #333;
+    margin-bottom: 0.7rem;
+}
+
+.job-card .salary {
+    font-family: 'Arial';
+    font-size: 0.9rem; 
+    color: #6e0a0a;
+    margin-bottom: 0.3rem;
+}
+
+.job-card .vacancies {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.job-card .job-link {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem; 
+    transition: transform 0.3s ease;
+}
+
+.job-card .job-link:hover {
+    transform: translateX(3px);
+}
+
+.bottom-right-text {
+    grid-column: 2 / 3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottom-right-text p {
+    margin-bottom: 1rem;
+}
+
+.bottom-right-text a {
+    color: rgb(123, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.bottom-right-text span {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.bottom-right-text h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.top-left-text span {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.top-left-text h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.jobs-feed button {
+    border: 1px solid rgb(133, 0, 0);
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: rgb(133, 0, 0);
+    color: white;
+    margin-left: 3%;
+    }
+
+@media (max-width: 768px) {
+    .jobs-section {
+        padding: 0.5rem;
+    }
+
+    .jobs-section h2 {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .jobs-container {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto auto; 
+        gap: 1rem;
+    }
+
+    .top-left-text,
+    .top-right-image,
+    .bottom-left-grid,
+    .bottom-right-text {
+        grid-column: 1 / 2;
+        grid-row: auto / auto;
+        padding: 10px;
+    }
+
+    .top-right-image img {
+        max-height: none; 
+    }
+
+    .jobs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .job-card {
+        padding: 1rem;
+        border: 3px solid rgb(123, 0, 0);
+    }
+
+    .job-card h3 {
+        font-size: 1rem;
+    }
+
+    .job-card .salary {
+        font-size: 0.8rem;
+    }
+
+    .job-card .vacancies {
+        font-size: 0.7rem;
+    }
+
+    .job-card .job-link {
+        font-size: 1rem;
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
+    
+}

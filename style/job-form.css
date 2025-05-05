@@ -1,0 +1,84 @@
+/* style/jobs-form.css */
+.jobs-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jobs-form-constent {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .jobs-form-constent h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .jobs-form-constent label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .jobs-form-constent input[type=text],
+  .jobs-form-constent input[type=tel],
+  .jobs-form-constent input[type=email],
+  .jobs-form-constent textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .jobs-form-constent textarea {
+    resize: vertical;
+  }
+  
+  .jobs-form-constent button[type=submit] {
+    background-color: rgb(123, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+  }
+  
+  .jobs-form-constent button[type=submit]:hover {
+    background-color: rgb(150, 0, 0);
+  }
+  
+  .close-form-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-form-button:hover,
+  .close-form-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

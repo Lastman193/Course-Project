@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="18.1"
+   height="18.1"
+   viewBox="0 -0.5 0.56562501 0.56562501"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="insta.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="22.627417"
+     inkscape:cx="16.617009"
+     inkscape:cy="27.201514"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 0.39172756,-0.47393779 H 0.17398563 c -0.0801704,0 -0.14516128,0.0649909 -0.14516128,0.14516133 v 0.21774197 c 0,0.08016903 0.0649909,0.14516134 0.14516128,0.14516134 h 0.21774193 c 0.0801689,0 0.14516128,-0.0649923 0.14516128,-0.14516134 v -0.21774197 c 0,-0.0801704 -0.0649923,-0.14516133 -0.14516128,-0.14516133 z"
+     stroke="#000000"
+     stroke-width="0.0544354"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 0.28285658,-0.11103449 c -0.0601295,0 -0.10887098,-0.0487417 -0.10887098,-0.10887101 0,-0.0601294 0.0487418,-0.10887096 0.10887098,-0.10887096 0.0601294,0 0.10887098,0.0487417 0.10887098,0.10887096 0,0.0288729 -0.0114711,0.0565656 -0.0318882,0.0769827 -0.0204172,0.0204169 -0.0481098,0.0318882 -0.0769828,0.0318883 z"
+     stroke="#000000"
+     stroke-width="0.0544354"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path2" />
+  <rect
+     x="0.32877648"
+     y="0.39172751"
+     width="0.072580665"
+     height="0.07258065"
+     rx="0.036290333"
+     transform="rotate(-90)"
+     fill="#000000"
+     id="rect2"
+     style="stroke-width:0.0362904" />
+  <rect
+     x="0.34692165"
+     y="0.40987265"
+     width="0.036290333"
+     height="0.036290325"
+     rx="0.018145166"
+     transform="rotate(-90)"
+     stroke="#000000"
+     stroke-linecap="round"
+     id="rect3"
+     style="stroke-width:0.0362904" />
+</svg>

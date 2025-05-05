@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="19"
+   height="19"
+   viewBox="0 0 6.08 6.08"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg4"
+   sodipodi:docname="tg.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="21.976878"
+     inkscape:cx="14.924777"
+     inkscape:cy="15.903078"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     id="g4"
+     transform="scale(0.02357866)">
+    <path
+       d="M 128,0 C 57.307,0 0,57.307 0,128 v 0 c 0,70.693 57.307,128 128,128 v 0 c 70.693,0 128,-57.307 128,-128 v 0 C 256,57.307 198.693,0 128,0 Z"
+       fill="#40b3e0"
+       id="path1" />
+    <path
+       d="m 190.2826,73.6308 -22.862,115.267 c 0,0 -3.197,7.994 -11.99,4.157 l -52.758,-40.448 -19.184,-9.272 -32.294,-10.872 c 0,0 -4.956,-1.758 -5.436,-5.595 -0.479,-3.837 5.596,-5.915 5.596,-5.915 l 128.376,-50.36 c 0,0 10.552,-4.636 10.552,3.038"
+       fill="#ffffff"
+       id="path2" />
+    <path
+       d="m 98.6178,187.6035 c 0,0 -1.54,-0.144 -3.459,-6.22 -1.918,-6.075 -11.67,-38.049 -11.67,-38.049 l 77.537,-49.24 c 0,0 4.477,-2.718 4.317,0 0,0 0.799,0.479 -1.599,2.717 -2.398,2.239 -60.911,54.836 -60.911,54.836"
+       fill="#d2e5f1"
+       id="path3" />
+    <path
+       d="m 122.9015,168.1154 -20.868,19.026 c 0,0 -1.631,1.238 -3.416,0.462 l 3.996,-35.341"
+       fill="#b5cfe4"
+       id="path4" />
+  </g>
+</svg>
